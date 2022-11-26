@@ -1,0 +1,216 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    transition: all 0.3s;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#t1{
+    background-color: rgb(126, 169, 233);
+    width:300px ;
+    border: solid 1px;
+   } 
+   
+
+
+#maincontenedor{
+    position: absolute;
+    left: 0px;
+    width: 420px;
+    height: 1080px;
+    border: solid 1px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.356);
+    
+}
+
+.bloques{
+    display: block;
+    margin: 15px;
+    padding: 8px;
+    left: 45px;
+    background-color: white;
+}
+
+.img{
+    width: 60px;
+    height: 170px;
+    border: solid 1px;
+   }
+
+.btns{
+    background-color: black;
+    width: 60px;
+    height: 170px;
+    border: solid 1px;
+    margin: 5px;
+}   
+
+#img{
+    width: 60px;
+    height: 150px;
+    border: solid 1px;
+    margin: 5px;
+}
+
+#t2{
+width: 130px;
+border: solid 1px;
+left: 45px;
+background-color: rgb(126, 169, 233);
+}
+
+
+
+
+.img:hover{
+    cursor: pointer;
+    color:red;
+    width:60px ;
+    height:160px ;
+    
+}
+
+.btns:hover{
+    cursor: pointer;
+    color:red;
+    width:60px ;
+    height:160px ;
+}
+
+.imagenes{
+    left: 20px;
+    width: 380px;
+    height: 250px;
+    border: solid 1px;
+    border: solid 1px;
+    background-color: antiquewhite;
+    
+}
+
+#busqueda:focus{
+    background-color: gray;
+    color:black ;  
+    font-size: 25px; 
+    border-color: blue;
+    
+}
+
+#busqueda::placeholder{
+    color:black ;  
+    font-size: 25px; 
+}
+
+
+#infoand{
+    font-size: 15px;
+    padding: 5px;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+#infoand:hover{
+    cursor: pointer;
+    background-color: rgb(71, 68, 68);
+}
+
+
+
+
+
+
+
+
+@media (max-width:565px){
+
+        #t1{
+            border: solid 1px;
+            width: 250px;
+            
+          } 
+
+
+    #maincontenedor{
+        
+        font-family: sans-serif;
+        border: solid 1px;
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        height: 740px;
+        background-color: rgb(39, 53, 180);
+        
+    }
+
+    .imagenes{
+        width:100% ;
+        height: 200px;
+        left: 0px;
+        background-color: rgb(172, 178, 235);
+    }
+
+   
+
+    .img{
+        width: 55px;
+        background-color: rgb(59, 76, 230);
+    }
+
+    .btns{
+        width: 55px;
+        background-color: rgb(59, 76, 230);
+    }
+
+    
+
+    .bloques{
+        left:0px;
+        margin: 30px 0px 0px 20px;
+        padding: 10px;
+        font-size: 15px;
+        background-color: rgb(164, 171, 233);
+      }
+
+      .bloques:focus{
+        background-color:gray;
+      }
+
+    #infoand{
+        
+        padding: 5px;
+        border-radius: 5px;
+    }
+  
+    #t2{
+        left: 20px;
+        margin: 2px 0px 2px 0px;
+        box-sizing: border-box;
+        color: rgb(3, 3, 3);
+    }
+
+   
+
+    #actualizar{
+        color: rgb(3, 3, 3);
+    }
+
+    #infoand{
+        color: rgb(3, 3, 3);
+    }
+
+   #icons{
+        top: 70px;
+        left: 145px;
+        z-index: 1;
+        font-size:25px ;
+    }
+
+   
+   
+
+}
